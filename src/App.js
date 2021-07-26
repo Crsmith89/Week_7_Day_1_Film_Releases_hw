@@ -1,10 +1,12 @@
 import './App.css';
-import react from "react"
+import React from 'react';
+import FilmReleasesBox from './Containers/FilmReleasesBox';
 
 function App() {
   return (
-    <h1>Film releases</h1>
 
+    
+      <FilmReleasesBox/>
     
   );
 }
